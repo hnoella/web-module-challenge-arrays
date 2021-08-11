@@ -120,11 +120,7 @@ Use the getFlavorByIndex function below to do the following:
 */
 
 function getFlavorByIndex(array, index) {
-  for (let i = 0; i < array.length; i++) {
-    if (array.charAt(index)) {
-    }
-  }
-  return array;
+  return array[index];
 }
 
 console.log("task 5", getFlavorByIndex(originalFlavors, 2));
@@ -183,7 +179,7 @@ function filterByWord(array, string) {
   return filteredArray;
 }
 
-console.log("task 7", filterByWord(originalFlavors, "chocolate"));
+console.log("task 7", filterByWord(originalFlavors, "Chocolate"));
 
 /* 💪💪💪💪💪🧁🍦🍨 STRETCH 🍨🍦🍫💪💪💪💪💪*/
 
